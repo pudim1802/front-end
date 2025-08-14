@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    
+    background-image: url("./outro.jpg");
+    background-size: cover;           
+    background-position: center;       
+    background-repeat: no-repeat;
+    backdrop-filter: blur(3px);
+ 
+    
+
+}
+
+.corpo {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 40px;
+    padding: 70px;   
+    background-color: #ffffff1d;
+    color: rgb(21, 9, 9);
+    overflow: visible;
+    backdrop-filter: blur(1px);
+}
+
+ h1 {
+    font-size: 40px; 
+    text-align: center;
+    border-bottom: 100px;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+}
+
+
+#email{
+    border-radius: 14px;
+    padding: 6px;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 38px;
+    border: #ffffff 1px solid;
+
+
+}
+
+
+#senha{
+    border-radius: 14px;
+    padding: 6px;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 38px;
+    border: #ffffff 1px solid;
+   
+
+}   
+
+.button{
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.Esqueci_senha{
+     color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 10px;
+
+}
+
+.logar{
+   
+    width: 250px;
+    height:35px;
+    margin-right: 20px;
+    background-color: #ffffff1d;
+    border: none;
+    border-radius: 14px;
+    color: rgb(0, 0, 0);
+    
+}
+
+.checkbox{
+
+    margin-bottom: 10px;
+    padding: 10px;
+    
+}
+
+.noconta{
+    color: blue;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+    transition: color 0.3s; 
+}
+.noconta:hover {
+    color: red; 
+}
+
+.Esqueci_senha:hover{
+    color: red;
+}
+
+
